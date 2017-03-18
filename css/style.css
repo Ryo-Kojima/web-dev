@@ -1,0 +1,128 @@
+section {
+  margin: 30px auto 0;
+  width: 65%;
+}
+.content01 {
+  width: 100%;
+}
+h2 {
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-size: 45px;
+  color: #062666;
+  text-align: center;
+}
+h2 span {
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-size: 35px;
+  color: #062666;
+}
+.content01 h2,.content02 h2,.content04 h2 {
+  padding-top: 30px;
+}
+.plan_01,.plan_02 {
+  float: left;
+  width: 33%;
+}
+.p-font {
+  font-size: 15px;
+}
+.font01 .fa-arrow-circle-right {
+  font-size: 30px!important;
+}
+.font02 .fa-arrow-circle-right {
+  font-size: 30px!important;
+}
+.font03 .fa-arrow-circle-right {
+  font-size: 30px!important;
+}
+.font04 .fa-arrow-circle-right {
+  font-size: 30px!important;
+}
+.font05 .fa-arrow-circle-right {
+  font-size: 30px!important;
+}
+.font01 {
+  color: #5E66AD!important;
+  font-size: 40px;
+}
+.font02 {
+  color: #2CA6E0!important;
+  font-size: 40px;
+}
+.font03 {
+  color: #F29739!important;
+  font-size: 40px;
+}
+.font04 {
+  color: #6CBA5A!important;
+  font-size: 40px;
+}
+.font05 {
+  color: #7E4E8D!important;
+  font-size: 40px;
+}
+.price p {
+  float: left;
+}
+.price img {
+  float: right;
+  padding-right: 18px;
+}
+.course p {
+  text-align: center;
+}
+#place {
+  margin-top: 0px;
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../imgs/place_bg.png);
+}
+.content02 {
+  width: 65%;
+  margin: 0 auto;
+}
+th {
+  width: 30%;
+  text-align: left;
+  font-size: 15px;
+}
+td {
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.8;
+  padding-top: 30px;
+}
+.p-space01 {
+  padding-top: 10px;
+}
+.p-space02 {
+  padding-bottom: 35px;
+}
+.p-space03 {
+  padding-bottom: 15px;
+}
+#voice {
+  margin-top: 0px;
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  background-image: url(../imgs/voice_bg.jpg);
+}
+.content03 {
+  width: 65%;
+  margin: 0 auto;
+}
+.title_bg {
+  padding-top: 60px;
+  width: 100%;
+  height: 166px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-image: url(../imgs/voice-title.png);
+  background-position: center;
+}
