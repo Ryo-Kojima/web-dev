@@ -1,19 +1,24 @@
 section {
   margin: 30px auto 0;
+  width: 100%;
+}
+#container {
   width: 65%;
 }
 .content01 {
   width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/bg_photo-01.jpg);
 }
 h2 {
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-  font-size: 45px;
+  font-size: 38px;
   color: #062666;
   text-align: center;
 }
 h2 span {
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-  font-size: 35px;
+  font-size: 33px;
   color: #062666;
 }
 .content01 h2,.content02 h2,.content04 h2 {
@@ -79,7 +84,8 @@ h2 span {
   background-size: cover;
   background-image: url(../imgs/place_bg.png);
 }
-.content02 {
+.content02,.content03,
+.content04,.content05,.content06 {
   width: 65%;
   margin: 0 auto;
 }
@@ -112,10 +118,6 @@ td {
   background-size: cover;
   background-image: url(../imgs/voice_bg.jpg);
 }
-.content03 {
-  width: 65%;
-  margin: 0 auto;
-}
 .title_bg {
   padding-top: 60px;
   width: 100%;
@@ -125,4 +127,189 @@ td {
   background-position: top;
   background-image: url(../imgs/voice-title.png);
   background-position: center;
+}
+.star {
+  font-size: 14px;
+  color: #F8B62D;
+}
+.voice_list {
+  font-size: 20px;
+  line-height: 1.6;
+  border: 1px solid #999;
+  background-color: #fff;
+  width: 61%;
+  margin-top: 30px;
+  margin: 30px 10px 0;
+}
+.voice_list img {
+  font-weight: bold;
+  padding-left: 15px;
+}
+.voice_list p {
+  font-weight: bold;
+}
+.p-btn {
+  width: 70%;
+  line-height: 2;
+  border: 1px solid #052666;
+  border-radius: 30px;
+  display: table;
+  margin: 0 auto 0 15px;
+  text-align: center;
+  padding-left: 50px;
+}
+.p_point {
+  color: #999;
+}
+.p-btn a {
+  text-decoration: none;
+  color: #052666;
+  font-size: 12px;
+}
+.btn {
+  width: 60%;
+  height: 50px;
+  line-height: 3;
+  border: 1px solid #052666;
+  background-color: #F2F3F4;
+  opacity: 0.8;
+  border-radius: 15px;
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 40px;
+  padding: 15px 25px;
+  box-shadow: 3px 3px 3px 3px #999;
+}
+.point {
+  color: #999;
+  position: relative;
+  left: 230px;
+}
+.btn p {
+  border-right: 1px solid #000;
+  width: 85%;
+}
+.btn a {
+  text-decoration: none;
+  color: #052666;
+  font-size: 25px;
+}
+.v-btn {
+  width: 40%;
+  height: 50px;
+  line-height: 3;
+  border: 1px solid #052666;
+  border-radius: 25px;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.v_point {
+  color: #999;
+}
+.v-btn a {
+  text-decoration: none;
+  color: #052666;
+  font-size: 18px;
+}
+.safety {
+  width: 82%;
+  font-size: 18px;
+  display: inline-block;
+  float: right;
+  margin: 20px 20px 0 0;
+}
+.font {
+  font-size: 14px;
+}
+#reason {
+  width: 100%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.reason_item {
+  float: left;
+  width: 33%;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 30px;
+}
+.reason_item img {
+  width: 85%;
+}
+.reason_font {
+  color: #052666;
+  font-weight: bold;
+}
+.r-btn {
+  width: 40%;
+  height: 20px;
+  line-height: 1.9;
+  border: 1px solid #052666;
+  border-radius: 13px;
+  display: table;
+  margin: 0 auto;
+}
+.reason_point {
+  color: #999;
+}
+.r-btn a {
+  text-decoration: none;
+  color: #052666;
+}
+.r-btn02 {
+  margin-top: 10px;
+}
+#step {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/bg_photo-01.jpg);
+  margin: 0 auto;
+}
+.content05 img {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 1%;
+}
+.bnr {
+  padding-top: 150px;
+}
+.bnr img {
+  margin-top: 0;
+  width: 23%;
+  border: 1px solid #052666;
+}
+caption {
+  width: 90%;
+  text-align: -webkit-left;
+  text-align: left;
+  padding-right: 80px;
+  border-bottom: 2px solid #999;
+  line-height: 1;
+}
+.option {
+  float: left;
+  width: 50%;
+}
+.option img {
+  width: 10%;
+  text-align: left;
+}
+.option td {
+  padding-top: 0;
+  padding-left: 15px;
+}
+#maind {
+  width: 100%;
+  height: 500px;
+  background-repeat: repeat-x;
+  background-image: url(../imgs/bg02.jpg);
+}
+.maind_item {
+  margin-top: 15px;
+}
+.maind_item p {
+  font-size: 12px;
 }
